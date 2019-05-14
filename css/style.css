@@ -1,0 +1,29 @@
+ /* CSS for script to ask user 5 questions by modifying html page
+ * 
+ * I, Srinath Natarajan, 000770411 certify that this material is my original work. No other person's work has been used without due acknowledgement. 
+ */ 
+ 
+/* Setting background, width, text colour, and centering it */
+.game {
+	background: black;
+	text-align:center;
+	width:320px;
+	height:200px;
+	color: white;
+	}
+
+/* Setting header colour to blue	 */
+h1 {
+	color:blue;
+	}
+
+/* Centering table	 */
+table {
+	margin: 0px auto;
+}
+
+/* Centering table values and setting background to grey */
+table, tr, td {
+	text-align:center;
+	background: grey;
+}

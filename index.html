@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+ <!-- CSS for script to ask user 5 questions by modifying html page
+ * 
+ * I, Srinath Natarajan, 000770411 certify that this material is my original work. No other person's work has been used without due acknowledgement.
+ -->
+<html>
+	<head>
+		<title>Question Game</title>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<script src="js/jquery-1.10.0.js"></script>
+		<script src="js/game.js"></script>
+	</head>
+	<body>
+		<div class="game">
+			<h3>Questions Game</h3>
+			<table>
+				<tr>
+					<td class="question"></td>
+				</tr>
+				<tr class="answerrow">
+					<td class="answer1"><input id="answer" class="answer"></td>
+				</tr>
+			</table>
+			<br class="brs">
+			<input class="submit" type="button" value="Start">
+			<p>Score : <span  class="score">0</span></p>
+			<p class="result"><br class="brs"></p>
+			<p id ="gameresult" class="gameresult"><br class="brs"></p>
+			<br>
+		</div>
+	</body>
+</html>
